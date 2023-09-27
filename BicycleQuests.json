@@ -1,0 +1,107 @@
+{
+    "filterQuestList" : [
+      {
+        "label" : "🚲",
+        "title" : "Add bicycle shop info",
+        "tagKeys" : [
+          "service:bicycle:repair",
+          "service:bicycle:second_hand"          
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "bicycle",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "🚲",
+        "title" : "Add parking info",
+        "tagKeys" : [
+          "fee",
+          "access",
+          "capacity",
+          "covered"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "bicycle_parking",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "🔧",
+        "title" : "Add bicycle pump info",
+        "tagKeys" : [
+            "service:bicycle:pump"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "bicycle_parking",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "bicycle",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "📐",
+        "title" : "Add bicycle ramp info",
+        "tagKeys" : [
+            "ramp:bicycle",
+            "ramp"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "highway",
+            "tagValue" : "steps",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "bicycle",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : true,
+          "area" : false,
+          "point" : false,
+          "vertex" : false
+        }
+      }
+    ],
+    "featureQuestList" : [
+    ]
+  }
