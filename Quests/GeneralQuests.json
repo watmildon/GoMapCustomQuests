@@ -111,6 +111,24 @@
             "tagKey" : "shop",
             "tagValue" : "super_market",
             "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "mall",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "department_store",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "highway",
+            "tagValue" : "rest_area",
+            "included" : "include"
           }
         ],
         "geometry" : {

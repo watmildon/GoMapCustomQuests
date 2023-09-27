@@ -39,11 +39,7 @@
           "point": true,
           "vertex": false
         }
-      }
-    ]
-  },
-  {
-    "filterQuestList": [
+      },
       {
         "label": "🚲",
         "title": "Add bicycle shop info",
@@ -144,12 +140,7 @@
           "point": false,
           "vertex": false
         }
-      }
-    ],
-    "featureQuestList": []
-  },
-  {
-    "filterQuestList": [
+      },
       {
         "label": "⚡",
         "title": "Add charging station info",
@@ -173,11 +164,7 @@
           "point": true,
           "vertex": false
         }
-      }
-    ]
-  },
-  {
-    "filterQuestList": [
+      },
       {
         "label": "🪑",
         "title": "Add Outdoor Seating",
@@ -393,12 +380,7 @@
           "point": true,
           "vertex": false
         }
-      }
-    ],
-    "featureQuestList": []
-  },
-  {
-    "filterQuestList": [
+      },
       {
         "label": "🤸‍♀️",
         "title": "Add play ground info",
@@ -448,11 +430,7 @@
           "point": true,
           "vertex": false
         }
-      }
-    ]
-  },
-  {
-    "filterQuestList": [
+      },
       {
         "label": "🪑",
         "title": "Add bench info",
