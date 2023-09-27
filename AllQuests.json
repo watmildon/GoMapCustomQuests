@@ -1,324 +1,322 @@
 {
-    "filterQuestList":  [
-                            {
-                                "label":  "🚲",
-                                "title":  "Add bicycle shop info",
-                                "tagKeys":  [
-                                                "service:bicycle:repair",
-                                                "service:bicycle:second_hand"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "shop",
-                                                    "tagValue":  "bicycle",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "🚲",
-                                "title":  "Add parking info",
-                                "tagKeys":  [
-                                                "fee",
-                                                "access",
-                                                "capacity",
-                                                "covered"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "bicycle_parking",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "🔧",
-                                "title":  "Add bicycle pump info",
-                                "tagKeys":  [
-                                                "service:bicycle:pump"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "bicycle_parking",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "shop",
-                                                    "tagValue":  "bicycle",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "📐",
-                                "title":  "Add bicycle ramp info",
-                                "tagKeys":  [
-                                                "ramp:bicycle",
-                                                "ramp"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "highway",
-                                                    "tagValue":  "steps",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "shop",
-                                                    "tagValue":  "bicycle",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  true,
-                                                 "area":  false,
-                                                 "point":  false,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "🪑",
-                                "title":  "Add Outdoor Seating",
-                                "tagKeys":  [
-                                                "outdoor_seating"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "restaurant",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "cafe",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "bar",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "fast_food",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "pub",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "bakery",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  true,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "🚽",
-                                "title":  "Add bathroom information",
-                                "tagKeys":  [
-                                                "toilets"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "restaurant",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "cafe",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "bar",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "fast_food",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "pub",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "bakery",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "shop",
-                                                    "tagValue":  "convenience",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "shop",
-                                                    "tagValue":  "grocery",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "shop",
-                                                    "tagValue":  "super_market",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "🚼",
-                                "title":  "Add changing table information",
-                                "tagKeys":  [
-                                                "changing_table"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "toilets",
-                                                    "tagValue":  "yes",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "toilets",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "♿",
-                                "title":  "Add handicap access information",
-                                "tagKeys":  [
-                                                "toilets:wheelchair"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "toilets",
-                                                    "tagValue":  "yes",
-                                                    "included":  "include"
-                                                },
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "toilets",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "✋",
-                                "title":  "Add toilet access info",
-                                "tagKeys":  [
-                                                "access"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "amenity",
-                                                    "tagValue":  "toilets",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            },
-                            {
-                                "label":  "✋",
-                                "title":  "Add toilet access info",
-                                "tagKeys":  [
-                                                "toilets:access"
-                                            ],
-                                "filters":  [
-                                                {
-                                                    "relation":  "=",
-                                                    "tagKey":  "toilets",
-                                                    "tagValue":  "yes",
-                                                    "included":  "include"
-                                                }
-                                            ],
-                                "geometry":  {
-                                                 "line":  false,
-                                                 "area":  true,
-                                                 "point":  true,
-                                                 "vertex":  false
-                                             }
-                            }
-                        ],
-    "featureQuestList":  [
-
-                         ]
+  "filterQuestList": [
+    {
+      "label": "🚲",
+      "title": "Add bicycle shop info",
+      "tagKeys": [
+        "service:bicycle:repair",
+        "service:bicycle:second_hand"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "shop",
+          "tagValue": "bicycle",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "🚲",
+      "title": "Add parking info",
+      "tagKeys": [
+        "fee",
+        "access",
+        "capacity",
+        "covered"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "bicycle_parking",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "🔧",
+      "title": "Add bicycle pump info",
+      "tagKeys": [
+        "service:bicycle:pump"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "bicycle_parking",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "shop",
+          "tagValue": "bicycle",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "📐",
+      "title": "Add bicycle ramp info",
+      "tagKeys": [
+        "ramp:bicycle",
+        "ramp"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "highway",
+          "tagValue": "steps",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "shop",
+          "tagValue": "bicycle",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": true,
+        "area": false,
+        "point": false,
+        "vertex": false
+      }
+    },
+    {
+      "label": "🪑",
+      "title": "Add Outdoor Seating",
+      "tagKeys": [
+        "outdoor_seating"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "restaurant",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "cafe",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "bar",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "fast_food",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "pub",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "bakery",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": true,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "🚽",
+      "title": "Add bathroom information",
+      "tagKeys": [
+        "toilets"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "restaurant",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "cafe",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "bar",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "fast_food",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "pub",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "bakery",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "shop",
+          "tagValue": "convenience",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "shop",
+          "tagValue": "grocery",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "shop",
+          "tagValue": "super_market",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "🚼",
+      "title": "Add changing table information",
+      "tagKeys": [
+        "changing_table"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "toilets",
+          "tagValue": "yes",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "toilets",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "♿",
+      "title": "Add handicap access information",
+      "tagKeys": [
+        "toilets:wheelchair"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "toilets",
+          "tagValue": "yes",
+          "included": "include"
+        },
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "toilets",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "✋",
+      "title": "Add toilet access info",
+      "tagKeys": [
+        "access"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "amenity",
+          "tagValue": "toilets",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    },
+    {
+      "label": "✋",
+      "title": "Add toilet access info",
+      "tagKeys": [
+        "toilets:access"
+      ],
+      "filters": [
+        {
+          "relation": "=",
+          "tagKey": "toilets",
+          "tagValue": "yes",
+          "included": "include"
+        }
+      ],
+      "geometry": {
+        "line": false,
+        "area": true,
+        "point": true,
+        "vertex": false
+      }
+    }
+  ],
+  "featureQuestList": []
 }
