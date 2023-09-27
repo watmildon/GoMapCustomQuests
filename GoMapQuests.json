@@ -1,7 +1,7 @@
 {
     "filterQuestList" : [
       {
-        "label" : ":chair:",
+        "label" : "🪑",
         "title" : "Add Outdoor Seating",
         "tagKeys" : [
           "outdoor_seating"
@@ -52,7 +52,7 @@
         }
       },
       {
-        "label" : ":toilet:",
+        "label" : "🚽",
         "title" : "Add bathroom information",
         "tagKeys" : [
           "toilets"
@@ -121,7 +121,7 @@
         }
       },
       {
-        "label" : ":baby:",
+        "label" : "🚼",
         "title" : "Add changing table information",
         "tagKeys" : [
           "changing_table"
@@ -148,7 +148,7 @@
         }
       },
       {
-        "label" : ":wheelchair:",
+        "label" : "♿",
         "title" : "Add handicap access information",
         "tagKeys" : [
           "toilets:wheelchair"
@@ -175,7 +175,7 @@
         }
       },
       {
-        "label" : ":hand:",
+        "label" : "✋",
         "title" : "Add toilet access info",
         "tagKeys" : [
           "access"
@@ -196,7 +196,7 @@
         }
       },
       {
-        "label" : ":hand:",
+        "label" : "✋",
         "title" : "Add toilet access info",
         "tagKeys" : [
           "toilets:access"
