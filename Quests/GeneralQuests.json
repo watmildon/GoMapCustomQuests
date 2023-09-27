@@ -1,0 +1,224 @@
+{
+    "filterQuestList" : [
+      {
+        "label" : "🪑",
+        "title" : "Add Outdoor Seating",
+        "tagKeys" : [
+          "outdoor_seating"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "restaurant",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "cafe",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "bar",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "fast_food",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "pub",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "bakery",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : true,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "🚽",
+        "title" : "Add bathroom information",
+        "tagKeys" : [
+          "toilets"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "restaurant",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "cafe",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "bar",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "fast_food",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "pub",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "bakery",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "convenience",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "grocery",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "shop",
+            "tagValue" : "super_market",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "🚼",
+        "title" : "Add changing table information",
+        "tagKeys" : [
+          "changing_table"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "toilets",
+            "tagValue" : "yes",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "toilets",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "♿",
+        "title" : "Add handicap access information",
+        "tagKeys" : [
+          "toilets:wheelchair"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "toilets",
+            "tagValue" : "yes",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "toilets",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "✋",
+        "title" : "Add toilet access info",
+        "tagKeys" : [
+          "access"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "toilets",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      },
+      {
+        "label" : "✋",
+        "title" : "Add toilet access info",
+        "tagKeys" : [
+          "toilets:access"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "toilets",
+            "tagValue" : "yes",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      }
+
+
+    ],
+    "featureQuestList" : [
+    ]
+  }
