@@ -1,0 +1,47 @@
+{
+    "filterQuestList": [
+        {
+            "label": "🥕",
+            "title": "Add Dietary Info",
+            "tagKeys": [
+                "diet:halal",
+                "diet:vegetarian",
+                "diet:vegan",
+                "diet:gluten_free",
+                "diet:kosher"
+            ],
+            "filters": [
+                {
+                    "relation": "=",
+                    "tagKey": "amenity",
+                    "tagValue": "restaurant",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "amenity",
+                    "tagValue": "cafe",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "amenity",
+                    "tagValue": "fast_food",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "amenity",
+                    "tagValue": "food_court",
+                    "included": "include"
+                }
+            ],
+            "geometry" : {
+                "line" : false,
+                "area" : true,
+                "point" : true,
+                "vertex" : false
+              }
+        }
+    ]
+}
