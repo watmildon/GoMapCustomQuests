@@ -8,13 +8,38 @@
                 "wheelchair",
                 "min_age",
                 "max_age",
-                "access"
+                "access",
+                "lit"
             ],
             "filters": [
                 {
                     "relation": "=",
                     "tagKey": "amenity",
                     "tagValue": "playground",
+                    "included": "include"
+                }
+            ],
+            "geometry": {
+                "line": false,
+                "area": true,
+                "point": true,
+                "vertex": false
+            }
+        },
+        {
+            "label": "⚽",
+            "title": "Add pitch info",
+            "tagKeys": [
+                "sport",
+                "access",
+                "lit",
+                "surface"
+            ],
+            "filters": [
+                {
+                    "relation": "=",
+                    "tagKey": "leisure",
+                    "tagValue": "pitch",
                     "included": "include"
                 }
             ],

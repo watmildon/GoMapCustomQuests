@@ -1,0 +1,43 @@
+{
+    "filterQuestList" : [
+      {
+        "label" : "♿",
+        "title" : "Add wheelchair accessibility",
+        "tagKeys" : [
+            "wheelchair"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "bus_station",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "railway",
+            "tagValue" : "station",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "railway",
+            "tagValue" : "subway_entrance",
+            "included" : "include"
+          },
+          {
+            "relation" : "=",
+            "tagKey" : "leisure",
+            "tagValue" : "dog_park",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      }      
+    ]
+  }
