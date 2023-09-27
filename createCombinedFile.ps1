@@ -1,1 +1,1 @@
-gci .\Quests\*.json | % { cat $_ | ConvertFrom-Json -depth 10 }  | convertto-json -depth 10 | out-file AllQuests.json
+Get-ChildItem .\Quests\*.json | ForEach-Object { Get-Content $_ | ConvertFrom-Json -depth 10 }  | convertto-json -depth 10 | out-file AllQuests.json
