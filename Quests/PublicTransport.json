@@ -1,0 +1,107 @@
+{
+    "filterQuestList": [
+        {
+            "label": "🪑",
+            "title": "Add bench info",
+            "tagKeys": [
+                "bench"
+            ],
+            "filters": [
+                {
+                    "relation": "=",
+                    "tagKey": "public_transport",
+                    "tagValue": "platform",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "highway",
+                    "tagValue": "bus_stop",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "railway",
+                    "tagValue": "platform",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "highway",
+                    "tagValue": "platform",
+                    "included": "include"
+                }
+            ],
+            "geometry": {
+                "line": false,
+                "area": true,
+                "point": true,
+                "vertex": false
+            }
+        },
+        {
+            "label": "☔",
+            "title": "Add covered info",
+            "tagKeys": [
+                "bench"
+            ],
+            "filters": [
+                {
+                    "relation": "=",
+                    "tagKey": "public_transport",
+                    "tagValue": "platform",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "highway",
+                    "tagValue": "bus_stop",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "railway",
+                    "tagValue": "platform",
+                    "included": "include"
+                },
+                {
+                    "relation": "=",
+                    "tagKey": "highway",
+                    "tagValue": "platform",
+                    "included": "include"
+                }
+            ],
+            "geometry": {
+                "line": false,
+                "area": true,
+                "point": true,
+                "vertex": false
+            }
+        },
+        {
+            "label": "🚏",
+            "title": "Add bus stop info",
+            "tagKeys": [
+                "shelter",
+                "lit",
+                "bin",
+                "pole",
+                "passenger_information_display"
+            ],
+            "filters": [
+                {
+                    "relation": "=",
+                    "tagKey": "highway",
+                    "tagValue": "bus_stop",
+                    "included": "include"
+                }
+            ],
+            "geometry": {
+                "line": false,
+                "area": true,
+                "point": true,
+                "vertex": false
+            }
+        }
+    ]
+}

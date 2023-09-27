@@ -1,0 +1,28 @@
+{
+    "filterQuestList" : [
+      {
+        "label" : "⚡",
+        "title" : "Add charging station info",
+        "tagKeys" : [
+            "access",
+            "capacity",
+            "name",
+            "operator"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "amenity",
+            "tagValue" : "charging_station",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      }      
+    ]
+  }

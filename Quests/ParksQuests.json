@@ -1,0 +1,29 @@
+{
+    "filterQuestList": [
+        {
+            "label": "🤸‍♀️",
+            "title": "Add play ground info",
+            "tagKeys": [
+                "surface",
+                "wheelchair",
+                "min_age",
+                "max_age",
+                "access"
+            ],
+            "filters": [
+                {
+                    "relation": "=",
+                    "tagKey": "amenity",
+                    "tagValue": "playground",
+                    "included": "include"
+                }
+            ],
+            "geometry": {
+                "line": false,
+                "area": true,
+                "point": true,
+                "vertex": false
+            }
+        }
+    ]
+}
