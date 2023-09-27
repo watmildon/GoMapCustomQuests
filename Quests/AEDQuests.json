@@ -1,0 +1,31 @@
+{
+    "filterQuestList" : [
+      {
+        "label" : "💖",
+        "title" : "Add AED info",
+        "tagKeys" : [
+            "access",
+            "opening_hours",
+            "defibrillator:location",
+            "indoor",
+            "locked",
+            "manufacturer",
+            "model"
+        ],
+        "filters" : [
+          {
+            "relation" : "=",
+            "tagKey" : "emergency",
+            "tagValue" : "defibrillator",
+            "included" : "include"
+          }
+        ],
+        "geometry" : {
+          "line" : false,
+          "area" : true,
+          "point" : true,
+          "vertex" : false
+        }
+      }
+    ]
+  }
